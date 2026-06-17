@@ -52,4 +52,4 @@ Password: admin123
 
 ## Developer
 
-Built with by Mohammad Chebly.
+Built by Mohammad Chebly.
