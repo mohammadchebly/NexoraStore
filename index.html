@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexora Store</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-inner">
+            <a href="index.html" class="brand"><span>N</span>Nexora Store</a>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <nav class="nav-links">
+                <a href="#categories-section">Categories</a>
+                <a href="#products-section">Products</a>
+                <a href="">Contact Us</a>
+                <a href="about.html">Why Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <span class="eyebrow">Open 10/24 ALL WEEK DAYS</span>
+                    <h1>Discover your next favorite <span class="gradient">tech product</span>.</h1>
+                    <p></p>
+                    <div class="hero-actions">
+                        <a href="#products-section" class="btn primary">Shop Products</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories-section" class="categories">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <h2>Shop by category</h2>
+                        <p>Choose a category to filter products.</p>
+                    </div>
+                </div>
+                <div id="categories" class="category-grid"></div>
+            </div>
+        </section>
+
+        <section id="products-section" class="products">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <h2>Featured products</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div id="products" class="product-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">© 2026 Nexora Store. All rights reserved.</footer>
+    <script src="assets/js/store.js"></script>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+            document.querySelector(".menu-toggle").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
