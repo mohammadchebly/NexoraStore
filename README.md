@@ -8,10 +8,10 @@ Designed as a **portfolio project** showcasing a premium UI/UX shopping experien
 ## Preview
 
 ### Desktop View
-![Desktop Preview](images/desktop.png)
+![Desktop Preview](desktop.png)
 
 ### Mobile View
-![Mobile Preview](images/mobile.png)
+![Mobile Preview](mobile.png)
 
 ---
 
